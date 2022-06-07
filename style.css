@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: green;
+    margin: 10px;
+}
+
+.logo{
+    background-image: url(../img/vic.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+.subtitulo{
+    margin: 35px;
+}
+.headerbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerbar ul {
+    list-style: none;
+    display: flex;
+}
+.headerbar ul li{
+    padding: 10px;
+}
+
+.headerbar ul li a {
+    font-size: 20px;
+    text-decoration: none;
+}
+.tarjeta{
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+}
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tarjeta__titulo{
+    font-size: 18px;
+}
+.tarjeta__descripcion{
+    font-size: 15px;
+    margin: 10px
+}
+.tarjeta__img{
+    width: 100%;
+    margin-top: 10px;
+}
+.tarjeta__btn{
+    margin: 10px;
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 5px;
+}
+.formulario{
+    margin: 10px;
+    padding: 10px;
+}
+
+.footerbar{
+    height: 60px;
+    margin: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: green;
+    display: flex;
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
